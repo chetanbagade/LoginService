@@ -75,8 +75,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         // Bind to the service
-        Intent intnt = new Intent("chandan.prasad.loggingservice.logService");
-        intnt.setPackage("chandan.prasad.loggingservice");
+        Intent intnt = new Intent("com.example.loginservice.CHETAN");
+        intnt.setPackage("com.example.loginservice");
         bindService(intnt, mConnection, Context.BIND_AUTO_CREATE);
     }
 
